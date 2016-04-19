@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  color: black;
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 5px;
+  padding: 10px 5px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+a:focus,
+a:hover {
+  outline: none;
+}
+
+code {
+  display: block;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 25px 0 50px;
+  width: 250px;
+}
+
+video {
+  bottom: 0;
+  height: 600px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 800px;
+  z-index: 5;
+}
+
+.active {
+  color: red;
+  text-decoration: underline;
+}
+
+.app,
+.error {
+  display: none;
+}
+
+.buttons {
+  background-color: rgba(255, 255, 255, .5);
+  border-bottom: 1px solid black;
+  font-size: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  z-index: 10;
+}
+
+.blur { -webkit-filter: blur(3px); }
+.brightness { -webkit-filter: brightness(2.5); }
+.contrast { -webkit-filter: contrast(5); }
+.grayscale { -webkit-filter: grayscale(1); }
+.hue-rotate { -webkit-filter: hue-rotate(125deg); }
+.invert { -webkit-filter: invert(1); }
+.opacity { -webkit-filter: opacity(0.5); }
+.sepia { -webkit-filter: sepia(1); }
+.saturate { -webkit-filter: saturate(3); }

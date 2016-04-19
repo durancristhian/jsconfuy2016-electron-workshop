@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jsconfuy2016-electron-workshop</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js"></script>
+</head>
+<body>
+  <div id="app" class="app">
+    <div class="buttons">
+      <a href="#!" data-filter="" class="active">None</a>
+      <a href="#!" data-filter="sepia">Sepia</a>
+      <a href="#!" data-filter="blur">Blur</a>
+      <a href="#!" data-filter="grayscale">Grayscale</a>
+      <a href="#!" data-filter="brightness">Brightness</a>
+      <a href="#!" data-filter="contrast">Contrast</a>
+      <a href="#!" data-filter="hue-rotate">Hue-rotate</a>
+      <a href="#!" data-filter="invert">Invert</a>
+      <a href="#!" data-filter="saturate">Saturate</a>
+      <a href="#!" data-filter="opacity">Opacity</a>
+    </div>
+    <video autoplay="true" id="video"></video>
+  </div>
+  <div id="error" class="error">
+    <img src="images/error.gif" alt="error animated gif">
+    <code></code>
+  </div>
+</body>
+</html>
