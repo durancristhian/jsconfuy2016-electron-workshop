@@ -14,11 +14,11 @@
   "author": "@durancristhian",
   "license": "MIT",
   "devDependencies": {
-    "electron-reload": "0.3.0",
-    "standard": "6.0.8"
+    "electron-reload": "1.1.0",
+    "standard": "8.6.0"
   },
   "dependencies": {
-    "electron-prebuilt": "0.35.0",
-    "jquery": "2.2.3"
+    "electron-prebuilt": "1.4.13",
+    "jquery": "3.1.1"
   }
 }
