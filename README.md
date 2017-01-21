@@ -1,5 +1,7 @@
 # jsconfuy2016-electron-workshop
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/durancristhian/jsconfuy2016-electron-workshop.svg)](https://greenkeeper.io/)
+
 :video_camera: Electron.js workshop given at [#JSConfUY](http://jsconf.uy/) by [@reverentgeek](https://github.com/reverentgeek)
 
 ## Development
